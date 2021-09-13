@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -16,6 +17,8 @@
       <module name="kafka-admin" target="11" />
       <module name="kafka-model" target="11" />
       <module name="kafka-producer" target="11" />
+      <module name="microservices-demo" target="11" />
+      <module name="twitter-to-kafka-service" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,7 +29,7 @@
       <module name="kafka-admin" options="-parameters" />
       <module name="kafka-model" options="-parameters" />
       <module name="kafka-producer" options="-parameters" />
-      <module name="microservices-demo" options="-parameters" />
+      <module name="microservices-demo" options="" />
       <module name="twitter-to-kafka-service" options="-parameters" />
     </option>
   </component>
